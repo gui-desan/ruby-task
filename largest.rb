@@ -8,8 +8,8 @@ def solution(num)
         num /= 10
     end
     arr.sort.reverse.each do |i|
-    ans *= 10
-    ans += i
+        ans *= 10
+        ans += i
     end
     return ans
 end
